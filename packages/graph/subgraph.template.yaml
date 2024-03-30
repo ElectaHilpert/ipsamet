@@ -1,0 +1,9 @@
+specVersion: 0.0.2
+description: Reality.eth
+repository: https://github.com/RealityETH/monorepo/
+schema:
+  file: ./schema.graphql
+dataSources:
+{{{datasources}}}
+features:
+  - nonFatalErrors

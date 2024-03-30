@@ -1,0 +1,37 @@
+{
+  "name": "@reality.eth/contracts",
+  "version": "3.0.3",
+  "description": "Collection of smart contracts for the Realitio fact verification platform",
+  "scripts": {
+    "generate-chains": "node scripts/generate_chains_json.js",
+    "generate-contracts": "node scripts/generate_contract_json.js",
+    "generate-tokens": "node scripts/generate_token_json.js",
+    "generate": "node scripts/generate_token_json.js && node scripts/generate_chains_json.js && node scripts/generate_contract_json.js"
+  },
+  "main": "index.js",
+  "keywords": [
+    "Ethereum",
+    "Reality.eth",
+    "Realitio",
+    "Reality Check",
+    "Reality Keys",
+    "oracle"
+  ],
+  "author": "Edmund Edgar (https://reality.eth.link)",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "require-glob": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RealityETH/monorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RealityETH/monorepo/issues"
+  },
+  "homepage": "https://reality.eth.link",
+  "gitHead": "a695f49c89a3704a081329657e5e40f4a354270e",
+  "dependencies": {
+    "ethers": "^5.6.8"
+  }
+}
